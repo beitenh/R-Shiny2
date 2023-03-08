@@ -1,0 +1,345 @@
+
+/* Set fonts*/
+
+@font-face {
+  font-family: 'Calibre';
+  src: url('fonts/CalibreRegular.otf');
+}
+
+@font-face {
+  font-family: 'Calibre';
+  font-weight: bold;
+  src: url('fonts/CalibreSemibold.otf');
+}
+
+@font-face {
+  font-family: 'iAWriter';
+  src: url('fonts/iAWriterDuospace-Regular.otf');
+}
+
+
+/* Fuente para todo menos los plotly*/
+body {
+  font-family: Calibre, Arial, Sans-Serif;
+  color: #363661;
+}
+
+/* Fuente para todo menos los plotly */
+p {
+  text-align: justify;
+}
+
+.spaced {
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-family: Calibre, Helvetica, Arial, Sans-Serif;
+  color: #3B69FA;
+  font-size: 200%;
+}
+
+h3 {
+  font-family: Calibre, Helvetica, Arial, Sans-Serif;
+  color: #363661;
+  font-weight: bold;
+  font-size: 110%;
+}
+
+h4 {
+  font-size: 100%;
+  font-weight: bold;
+  text-align: center;
+}
+
+h5 {
+  font-size: 90%;
+  font-weight: bold;
+}
+
+h6 {
+  font-size: 80%;
+  text-decoration: underline;
+}
+
+.met-table{
+  font-size: 75%;
+}
+
+.frow-bottom{
+  border-bottom:2px dotted #798BFE; 
+  padding-bottom:0px
+}
+
+.metodologia {
+  font-size: 80%;
+}
+
+.met-images{
+  width : 100%;
+  padding : 30;
+}
+
+/* borde de tabla
+table td + td { border-left:2px solid red; }*/
+
+.subtitulo {
+  font-size: 110%;
+}
+
+/* Etiqueta de select inputs*/
+.control-label {
+  font-family: 'iAWriter', 'IBM Plex Mono', 'PT Mono', 'Andale Mono', Courier;
+  font-size: 80%;
+}
+
+/* Download buttons*/
+.dwnld-button {
+  font-family: 'iAWriter', 'IBM Plex Mono', 'PT Mono', 'Andale Mono', Courier;
+  float:right;
+  background-color: white;
+}
+
+/* Texto selector de orden*/
+.shiny-options-group{
+  font-family: Calibre, Helvetica, Arial, Sans-Serif;
+  font-style: bold;
+  color: #363661;
+}
+
+.mini-sunburst {
+  padding-left:5px;
+  padding-right:5px;
+  padding-top:20px;
+}
+
+#intro_kable {
+  border-color: red;
+}
+
+/* Este modifica las filas striped - para que no sea striped debe ser igual que tabla
+.rt-tr-striped-sticky {
+    background-color: #CCCFD3;
+}*/
+
+/* Tabla sin buscador
+.Reactable .rt-table, .Reactable .rt-thead {
+  background-color: #CCCFD3;
+}*/
+
+.bandera-pais {
+  height: 21px;
+  border: 1px solid transparent;
+  margin-right: 5px;
+}
+
+.nombre-pais{}
+
+.celdas-paises{}
+
+.celdas-banderas{}
+
+.tooltip-mapa{
+  font-family: 'iAWriter', 'IBM Plex Mono', 'PT Mono', 'Andale Mono', Courier;
+  color: #363661;
+  font-size: 80%;
+}
+
+#expr-container .selectize-input {
+  width:350px;
+  font-family: 'iAWriter', 'IBM Plex Mono', 'PT Mono', 'Andale Mono', Courier;
+  font-size:0.66;
+  background-color:#3B69FA; /* Relleno del selector */
+  color:white;
+  
+}
+#expr-container .selectize-dropdown {
+  /* background-color: green; Otro relleno de opciones, pero que debajo del blue siguiente*/
+}
+#expr-container .selectize-dropdown-content {
+  width: 350px;
+  /* background-color: blue; Relleno de opciones*/
+}
+#expr-container .selectize-dropdown-content .option {
+  /* border-bottom: 1px dotted red; Borde de opciones*/
+}
+/*
+#expr-container label{
+  display: table-cell;
+  vertical-align: top;}
+  
+#expr-container .form-group {
+  display: table-row; 
+}
+*/
+
+#button-container label{
+  display: table-cell;
+  vertical-align: top;}
+  
+#button-container .form-group {
+  display: table-row; 
+}
+
+
+
+.waiter-overlay-content{
+    position: absolute;
+    top: 30px; /*30 pixels from the top*/
+    left: 50%; /*48% from the left*/
+    padding-left: 0px;
+    margin-left: 0px;
+  }
+
+
+/* Progress bar colour*/
+.progress-bar {
+  float: left;
+  width: 0%;
+  height: 100%;
+  font-size: 12px;
+  line-height: 20px;
+  color: #ffffff;
+  text-align: center;
+  background-color: #00A064;
+  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+  -webkit-transition: width 0.6s ease;
+  -o-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+}
+
+
+/* Tab fonts*/
+.nav-tabs {
+  font-size: 120%;
+}
+
+/* Main navbar colour*/
+.navbar-default {
+  background-color: #f8f8f8;
+    border-color: #f8f8f8;
+}
+
+/* Hoover colour for navbar buttons*/
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ffffff;
+  background-color: #303135;
+}
+
+/* Navbar active button colour*/
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  background-color: #E7E7E7;
+}
+
+
+/* Navbar dropdown menu button colour*/
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  background-color: #303135;
+  color: #ffffff;
+}
+
+
+/* Colour for elements in dropdown menu (picker)*/
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #E8EBF0;
+}
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+  color: #ffffff;
+  text-decoration: none;
+  outline: 0;
+  background-color: #00A064;
+}
+
+
+/* Text col when hoover over tabs*/
+
+/* unvisited link */
+a:link {
+  color: #262626
+}
+
+/* visited link */
+a:visited {
+  color: #262626;
+}
+
+/* mouse over link */
+a:hover {
+  color: #56A0D3;
+  text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+  color: #F26531;
+}
+
+/* Device para setear característcas en disp menores a ese ancho en pixeles*/
+@media all and (max-device-width: 550px) {
+  p, div {
+    font-size: 97%;
+    }
+    
+  .container-fluid{
+    background-color: #f8f8f8;
+    padding-right: 50px;
+    padding-left: 50px;
+    }
+    
+  .info { /* leyenda de leaflet*/
+    font-size: 90%;
+  }
+  
+  /* for the tabset */
+  .nav-tabs {
+      border-bottom-color: transparent;
+      font-size: 60% !important; 
+  }
+  
+  h1 {
+  font-size: 120%;
+}
+
+  h3 {
+  font-size: 75%;
+}
+
+h4 {
+  font-size: 60%;
+}
+
+h5 {
+  font-size: 60%;
+}
+
+h6 {
+  font-size: 60%;
+}
+
+.met-table{
+  font-size: 70%;
+}
+
+.metodologia {
+  font-size: 70%;
+}
+
+.rt-td-inner{
+  font-size: 60%;
+}
+.rt-text-content{
+  font-size: 60%;
+}
+
+}
